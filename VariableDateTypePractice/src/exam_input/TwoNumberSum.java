@@ -26,12 +26,4 @@ public class TwoNumberSum {
 
         input.close();
     }
-
-
-
-
-
-
-
-
 }
