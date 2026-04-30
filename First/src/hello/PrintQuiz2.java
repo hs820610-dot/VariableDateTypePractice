@@ -14,6 +14,6 @@ public class PrintQuiz2 {
        3교시: 출력문 연습
        ============================       
        """;
-       System.out.println(data);
+       System.out.println (data);
        }
 }

@@ -13,7 +13,7 @@ public class InputExample {
 
       System.out.print("첫번째 숫자 입력해 주세요.");
       num1 = input.nextInt();
-      System.out.print(("두번쨰 숫자 입력해 주세요.");
+      System.out.print("두번쨰 숫자 입력해 주세요.");
       num2 = input.nextInt();
 
       /* 위작업 대체 가능
@@ -22,7 +22,7 @@ public class InputExample {
        num2 = input.nextInt();
        */
 
-        System.out.println("num1 = " + num1 + "num2 = " + num2);
+        System.out.printf("num1 = %d, num2 = %d", num1, num2);
 
         temp = num1;
         num1 = num2;
@@ -36,7 +36,7 @@ public class InputExample {
         int a,b;
         System.out.println("[예제2]변수 a에 기억된 값을 1 증가시키고, 변수 b에 기억된 값은 1 감소시킨다. ");
 
-        System.out.print(("첫번쨰 숫자, 두번쨰 숫자를 공백으로 구분하여 입력해 주세요.");
+        System.out.print("첫번쨰 숫자, 두번쨰 숫자를 공백으로 구분하여 입력해 주세요.");
         a = input.nextInt();
         b = input.nextInt();
 
@@ -47,7 +47,7 @@ public class InputExample {
         // System.out.println("a = %d, b = %d, a,b);
 
         // 출력2 방법
-        System.out.println("a = %d, b = %d, a, b");
+        System.out.printf("a = %d, b = %d ", a, b);
 
         input.close();
     }

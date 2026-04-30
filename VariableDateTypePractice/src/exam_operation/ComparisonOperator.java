@@ -1,4 +1,4 @@
-package exam_operration {
+package exam_operation;
     public class ComparisonOperator{
             public static void main(String[] args) {
                int result = 0;
@@ -9,7 +9,7 @@ package exam_operration {
                System.out.println("result=" + result );
 
                result *= 3;
-               System.out.println("result=" = result);
+               System.out.println("result=" + result);
 
                result /= 5;
                System.out.println("result=" + result);
